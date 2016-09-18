@@ -15,3 +15,9 @@
 	$ git commit -m 'update download-url.json'
 
 	$ git push origin master
+
+	# login touclick-site server
+
+	$ cd touclick-site/data/captcha-demo 
+
+	$ git pull
