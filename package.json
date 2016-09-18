@@ -1,0 +1,23 @@
+{
+  "name": "publish-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zyayhj/publish-sdk.git"
+  },
+  "author": "zyayhj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zyayhj/publish-sdk/issues"
+  },
+  "homepage": "https://github.com/zyayhj/publish-sdk#readme",
+  "dependencies": {
+    "ali-oss": "^4.4.4",
+    "co": "^4.6.0"
+  }
+}
