@@ -31,7 +31,7 @@ for dir in ${sdk_list[@]};do
 	
 	echo $upload_time"\t"${tmp_dir}${target_filename}
 
-	node --harmony app  "${upload_time}/" ${tmp_dir}${target_filename} $infofile_path
+	node --harmony app  "${upload_time}/" ${tmp_dir}${target_filename}
 
 	SPLIT=","
 	if [ $index = ${#sdk_list[@]} ];then
