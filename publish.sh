@@ -4,7 +4,7 @@ VERSION="5.2.0" #SDK version
 URL_PREFIX="//captcha-static.touclick.com/download" #download url host 
 
 SDK_BASEPATH='/Users/foxer/touclick-apps/sdk'
-sdk_list=("/php-sdk" "/csharp-sdk" "/go-sdk" "/nodejs-demo" "/python-sdk" "/java-sdk")
+sdk_list=("/php-sdk" "/csharp-sdk" "/go-sdk" "/nodejs-demo" "/python-sdk" "/java-sdk" "/android-sdk" "/ios-sdk")
 tmp_dir=".archive/"
 rm -rf $tmp_dir
 mkdir $tmp_dir
